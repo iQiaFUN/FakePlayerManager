@@ -1,0 +1,37 @@
+{
+    "port":"54321",
+    "cmd":"/fp",
+    "id":"123456",
+    "add":{
+        "cmd":"add",
+        "level":"0"
+    },
+    "remove":{
+        "cmd":"remove",
+        "level":"0",
+        "alevel":"1"
+    },
+    "list":{
+        "cmd":"list",
+        "level":"0"
+    },
+    "conn":{
+        "cmd":"conn",
+        "level":"0",
+        "alevel":"1"
+    },
+    "disc":{
+        "cmd":"disc",
+        "level":"0",
+        "alevel":"1"
+    },
+    "state":{
+        "cmd":"state",
+        "level":"0",
+        "alevel":"0"
+    },
+    "setChat":{
+        "cmd":"setChat",
+        "level":"0"
+    }
+}

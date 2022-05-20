@@ -4,6 +4,15 @@ const wsPack = require('./wsPack');
 const vcfg = NIL._vanilla.cfg;
 const self = vcfg.self_id;
 const gmain = vcfg.group.main;
+const tmpcfg = JSON.parse(NIL.IO.readFrom(path.join(__dirname, 'example.json')));
+
+function checkFile(file, text) {
+    if (NIL.IO.exists(path.join(__dirname, file)) == false) {
+        NIL.IO.WriteTo(path.join(__dirname, file), text);
+    }
+}
+
+checkFile("config.json", tmpcfg);
 const cfg = JSON.parse(NIL.IO.readFrom(path.join(__dirname, 'config.json')));
 const name = '假人';
 const url = `ws://127.0.0.1:${cfg.port}`;

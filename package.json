@@ -1,11 +1,19 @@
 {
   "name": "fakeplayermanager",
-  "version": "1.0.6",
+  "version": "0.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "iQiaFUN",
-  "license": "ISC"
+  "license": "AGPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iqiafun/fakeplayermanager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iqiafun/fakeplayermanager/issues"
+  },
+  "homepage": "https://github.com/iqiafun/fakeplayermanager#readme"
 }
